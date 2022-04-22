@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+h1, h2, h3, h4, h5 {
+    color: #DAB88B;
+}
+
 /* NAVIGATION SECTION */
 nav {
     display: flex;
@@ -59,9 +63,9 @@ a:hover {
 
 /* HEADER SECTION */
 
-.main-pic {
+#Home {
     background-image: url(./images/main.jpg);
-    min-height: 90vh;
+    min-height: 110vh;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,9 +73,21 @@ a:hover {
     padding-left: 15px;
 }
 
-.main-pic > h1 {
+.main-pic {
+    position: relative;
+    bottom: 40px;
+}
+
+.main-pic h2 {
+    padding-top: 8px;
+    margin-left: ;
+    color: goldenrod;
+    font-family: cursive;
+}
+.main-pic > h3 {
     padding-top: 150px;
-    font-size: clamp(2rem, 5vw, 6rem);
+    font-size: clamp(1.5rem, 5vw, 5rem);
+    color: black;
 }
 
 .main-pic p {
@@ -97,7 +113,7 @@ a:hover {
 
 /* ABOUT US SECTION */
 
-#About{
+/* #About{
     background-image: url(./images/about.jpg);
     min-height: 80vh;
     position: relative;
@@ -106,10 +122,16 @@ a:hover {
     background-position: center;
     
 }
+ */
+.about-pic {
+    max-height: 400px;
+    min-width: 100%;
+    position: absolute;
+}
 
 .about-section {
     position: relative;
-    top: 150px;
+    top: 4px;
     padding: 0 50px 0 280px;
     font-size: 1.2rem;
     
@@ -122,9 +144,11 @@ a:hover {
 
 /* SERVICES SECTION */
 
+
 #Services {
-    margin: 60px 0; 
-    min-width: 100%; 
+    margin-top: 270px;
+    max-width: 100%; 
+    margin-bottom: 30px;
 }
 
 #Services h2 {
@@ -135,6 +159,7 @@ a:hover {
 
 .services-container {
     display: flex;
+    max-width: 100%;
 }
 .services-section {
     padding-left: 10px;
@@ -147,6 +172,7 @@ a:hover {
 
 .services-section p{
     text-align: left;
+    color: #F3E9DD;
 }
 
 .services-icon {
@@ -165,6 +191,7 @@ a:hover {
     text-align: center;
     padding-bottom: 25px;
     font-size: clamp(1.5rem, 5vw, 3rem);
+    color: #DAB88B;
 }
 
 .services-pic {
@@ -189,7 +216,7 @@ a:hover {
     position: absolute;
     left: 30px;
     bottom: 70px;
-    color: white;
+    color: #DAB88B;
     font-size: 1.5rem
 }
 
@@ -220,7 +247,11 @@ a:hover {
     right: 180px;
     bottom: 40%;
     font-size: 1.5rem;
-   
+    
+}
+
+.discount-discription h3 {
+    color: black;
 }
 
 .discount-discription p {
@@ -255,6 +286,7 @@ a:hover {
 #Stylists h2 {
     font-size: clamp(1.5rem, 5vw, 3rem);
     padding-bottom: 15px;
+    color: #DAB88B;
 }
 
 .stylist-container {
@@ -284,13 +316,17 @@ a:hover {
     line-height: 1.5rem;
 }
 
+.stylist-detail h4 {
+    color: white;
+}
 
 
 /*LOOKBOOK SECTION*/
 
 #Lookbook {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #FDF6EC;
 }
 
 #Lookbook h2 {
@@ -299,8 +335,9 @@ a:hover {
 }
 
 .lookbook-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 .hair-style {
     height: 400px;
@@ -323,8 +360,8 @@ footer {
 
 .footer-logo {
     opacity: 25%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
    
 }
 
