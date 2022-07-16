@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*DESKTOP FIRST */
 /* NAVIGATION SECTION */
 nav {
     display: flex;
@@ -415,4 +415,23 @@ footer {
 
 .social-icon {
     padding-right: 15px;
+}
+/* MOBILE MENU SECTION */
+@media screen and (max-width: 700px) {
+
+}
+  @media screen and (max-width: 950px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .stylist-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .lookbook-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
