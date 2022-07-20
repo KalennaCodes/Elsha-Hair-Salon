@@ -214,6 +214,7 @@ a:hover {
 }
 
 .offered-services {
+
     position: relative;
 }
 
@@ -305,7 +306,7 @@ a:hover {
 
 .stylist-pic {
     height: 400px;
-    min-width: 300px;
+    width: 300px;
 }
 .about-stylist {
     position: relative;
@@ -421,6 +422,9 @@ footer {
 
 }
   @media screen and (max-width: 950px) {
+    .offered-services-container {
+        display: flex;
+    }
     .services-container {
         display: flex;
         flex-direction: column;
