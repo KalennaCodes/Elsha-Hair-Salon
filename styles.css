@@ -133,7 +133,7 @@ a:hover {
 }
 
 .video-section {
-    left: 0px;
+    width: 50%;
   
 }
 
@@ -420,6 +420,16 @@ footer {
    .header {
     text-align: center;
     padding-top: 750px;
+   }
+
+   .about-section {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .video-section {
+    padding-top: 30px;
+    width: 100%;
    }
 }
   @media screen and (max-width: 950px) {
