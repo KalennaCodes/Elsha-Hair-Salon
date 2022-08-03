@@ -431,7 +431,7 @@ footer {
         z-index: 99;
         height: 100vh;
         font-size: 1.5rem;
-        background: blue;
+        background: #DAB88B;
     }
 
     .navbar_toggle .bar {
