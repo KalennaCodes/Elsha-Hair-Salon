@@ -29,6 +29,7 @@ nav {
 .nav-menu {
     display: flex;
     align-self: center;
+    font-size: 1.2rem;
 }
 
 li {
@@ -92,7 +93,7 @@ a:hover {
 }
 
 .header p {
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: clamp(1rem, 2.5vw, 2rem);
     padding: 15px 0;
 }
 
@@ -181,7 +182,7 @@ a:hover {
 .services-section-pg{
     text-align: left;
     padding: 25px;
-    font-size: clamp(1rem, 2.5vw, 1rem);
+    font-size: clamp(1rem, 1.8vw, 1.3rem);
 }
 
 .services-icon {
@@ -214,7 +215,7 @@ a:hover {
     display: flex;
     margin-bottom: 35px;
     justify-content: center;
-   
+    flex-wrap: wrap;
 }
 
 .offered-services {
